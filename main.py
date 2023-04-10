@@ -93,5 +93,6 @@ def main() -> str:
     print('Воитель, Маг, Лекарь')
     char_class: str = choice_char_class()
     print(start_training(char_name, char_class))
+    return
 
-    main()
+main()
